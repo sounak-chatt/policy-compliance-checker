@@ -1,5 +1,5 @@
 const BASE = import.meta.env.VITE_API_URL ||
-  "https://policy-compliance-checker.onrender.com//api";
+  "https://policy-compliance-checker.onrender.com/api";
 
 // Demo role; in production this comes from the auth/JWT layer.
 const headers = { "X-Role": "admin", "X-User": "demo@nexuszenith" };
