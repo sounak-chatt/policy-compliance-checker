@@ -25,7 +25,8 @@ import {
   getCopilotSuggestions,
   getCopilotExamples,
   askCopilot,
-} from "./api";
+} from import.meta.env.VITE_API_URL ||
+  "https://policy-compliance-checker.onrender.com/api";
 
 const PALETTE = {
   midnight: "#0A1633", // Deep Midnight Navy

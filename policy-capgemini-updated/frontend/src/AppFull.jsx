@@ -59,7 +59,8 @@ const REG_LABEL = {
   internal_hr: "Internal HR",
 };
 const CAT_COLORS = [CAP.purple, CAP.cyan, CAP.teal, CAP.orange, CAP.blue];
-const BASE = "/api";
+const BASE = import.meta.env.VITE_API_URL ||
+  "https://policy-compliance-checker.onrender.com/api";
 const HEADERS = { "X-Role": "admin", "X-User": "demo@nexuszenith" };
 
 const LS = {
