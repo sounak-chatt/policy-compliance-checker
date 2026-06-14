@@ -34,3 +34,9 @@ dist-ssr/
 
 # PDF exports
 *.pdf
+
+backend/data/chroma/
+venv/
+.venv/
+__pycache__/
+node_modules/
